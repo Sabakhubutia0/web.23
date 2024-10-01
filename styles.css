@@ -4,14 +4,13 @@
     box-sizing: border-box;  /*es ro daviwyeb sul unda davwero  */
 
 
-
+ .header {
+    margin-bottom: 107px;
+ }
 
     nav , a  {
         text-decoration: none;  
         color: #707070;
-    
-    
-    
     } 
     
     
@@ -62,7 +61,8 @@
     
     .footer { 
         text-align: right; 
-        margin-right: 20px;
+        margin-right: 20px; 
+        
         
     }
     
@@ -194,8 +194,3 @@
          height: 280px;
      } 
      
-
-    .footer-size {
-        max-width: 1640px;
-    }
-    
