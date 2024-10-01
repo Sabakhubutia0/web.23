@@ -1,16 +1,14 @@
-/* *{
+ *{
     padding: 1px;
     margin: 1px;
-    box-sizing: border-box;  /*es ro daviwyeb sul unda davwero  */
-
-
+    box-sizing: border-box; 
+ }  
+ 
  .header {
     margin-bottom: 107px;
     
  } 
 
-
-  
  nav li {
     display: inline-block; 
     margin: 0 20px;
@@ -36,15 +34,12 @@
         width: 40px;
         height: 40px;
     }  
-    .img-section {
-         max-width: 1640px;
-         margin: 0; 
-        
-    } 
+   
     img{
         width: 100%;
-    }
-    
+    } 
+
+   
     
     footer {
         /* border: 2px solid #2E2E2E;  */
@@ -90,114 +85,46 @@
         color: #707070; 
         
     
-    }
-    
-    #box-1 {  
+    } 
+
+     section .sections-1 {
+        display: inline-block;
+        margin: 0 95px;
+     } 
+
+    .sections-1 {  
        text-align: left;
        width: 480px;
        height: auto;
        padding: 10px;
        border: 1 solid;
        box-sizing: content-box; 
-       box-shadow: 5px 5px 5px 5px #888888 ; 
-       margin-top: 138px;
-       margin-bottom: 30px;
-    
+       box-shadow: 2px 2px 2px 2px #888888 ; 
+       margin-top: 268px;
+     
+    }  
+
+  
+    .img-section-2 {
+       margin-top: 30px;
     }
-    .img-box-1 {
+
+    .img-section {
         width: 480px;
         height: 280px;
     } 
-    
-    #box-2 {
-        
-        text-align: left;
-        width: 480px;
-        height: auto;
-        padding: 10px;
-        border: 1 solid;
-        box-sizing: content-box; 
-        box-shadow: 5px 5px 5px 5px  #888888 ;
-        margin-bottom: 30px;
-     
-     }
-     .img-box-2 {
-         width: 480px;
-         height: 280px;
-     } 
-    
-     #box-3 {
-        
-        text-align: left;
-        width: 480px;
-        height: auto;
-        padding: 10px;
-        border: 1 solid;
-        box-sizing: content-box; 
-        box-shadow: 5px 5px 5px 5px #888888 ;
-        margin-bottom: 30px;
-     
-     }
-     .img-box-3 {
-         width: 480px;
-         height: 280px;
-     } 
     
     
     aside{
         text-align: center;
         text-decoration: underline;
         font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
-    #box-4 {
-        
-        text-align: left;
-        width: 480px;
-        height: auto;
-        padding: 10px;
-        border: 1 solid;
-        box-sizing: content-box; 
-        box-shadow: 5px 5px 5px 5px #888888 ; 
-        margin-bottom: 30px;
-     
-     }
-     .img-box-4 {
-         width: 480px;
-         height: 280px;
-     }  
-    
-     #box-5 {
-        
-        text-align: left;
-        width: 480px;
-        height: auto;
-        padding: 10px;
-        border: 1 solid;
-        box-sizing: content-box; 
-        box-shadow: 5px 5px 5px 5px  #888888 ;
-        margin-bottom: 30px;
-     
-     }
-     .img-box-5 {
-         width: 480px;
-         height: 280px;
-     }  
-    
-     #box-6 {
-        
-        text-align: left;
-        width: 480px;
-        height: auto;
-        padding: 10px;
-        border: 1 solid;
-        box-sizing: content-box; 
-        box-shadow: 5px 5px 5px 5px #888888 ;
-        margin-bottom: 30px;
-     
-     }
-     .img-box-6 {
-         width: 480px;
-         height: 280px;
-     } 
-     
+
+    .footer-size {
+        margin-top: 68px;
+    }
+  
