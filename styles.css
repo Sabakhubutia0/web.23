@@ -194,5 +194,9 @@
          width: 480px;
          height: 280px;
      } 
-    
+     
+
+    .footer-size {
+        max-width: 1640px;
+    }
     
