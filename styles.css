@@ -141,17 +141,6 @@
        margin-top: 268px;
      
     }  
-
-  
-    .img-section-2 {
-       margin-top: 30px;
-    }
-
-    .img-section {
-        width: 480px;
-        height: 280px;
-    } 
-    
     
     aside{
         text-align: center;
@@ -164,7 +153,30 @@
 
     .footer-size {
         margin-top: 68px;
-    }
+    }  
+
+
+    .img-section-2 {
+        margin-top: 30px;
+     }
+ 
+     .img-section {
+         width: 480px;
+         height: 280px;
+     }  
+
+
+     .footer-font {
+        display: inline-block;
+     }
+
+  
+     div li {
+        display: inline-block; 
+     } 
+
+
+  
 
 
     
