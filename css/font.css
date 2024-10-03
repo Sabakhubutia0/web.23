@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'BPG-1';
+    src: url('../fonts/bpg-glaho-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-glaho-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-glaho-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-glaho-webfont.svg#bpg_glahoregular') format('svg'); /* Legacy iOS */
+}

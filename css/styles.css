@@ -1,3 +1,7 @@
+
+ 
+ 
+ 
  *{
     padding: 1px;
     margin: 1px;
@@ -40,7 +44,7 @@
     nav , 
     .logo-3 ,
     .search-icon {
-        vertical-align: middle;
+        vertical-align: top;
     }  
 
     nav li {
@@ -123,7 +127,7 @@
     
     } 
 
-      section .sections-1 {
+      section .sections-1  {
         
         display: inline-block;
         margin: 0 95px;
@@ -173,10 +177,22 @@
   
      div li {
         display: inline-block; 
+     }  
+
+     p , h2 {
+        font-family: "BPG Glaho", sans-serif;
      } 
 
+     h2 {
+        
+        margin: 20px 0 33px;
+     } 
 
-  
+     h1 {
+        margin-bottom: 70px;
+     }
+    
+    
 
 
     
