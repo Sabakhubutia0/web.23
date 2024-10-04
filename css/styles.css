@@ -152,7 +152,7 @@
 
     footer {
 
-        width: 1640px;
+        width: 100% ;
         height: 207px;
     }
 
@@ -168,7 +168,8 @@
 
       
      .footer-font {
-        display: inline-block;
+        display: inline-block; 
+       
     
     } 
 
@@ -178,7 +179,12 @@
     .navigacia  {
         display: inline-flex;
         vertical-align: middle;
-        margin: 0 400px ;
+        margin: 0 300px ;
+    } 
+
+    .footer {
+        display: block;
+        display: inline-block;
     }
 
 
