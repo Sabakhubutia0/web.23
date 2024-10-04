@@ -1,8 +1,4 @@
-
- 
- 
- 
- *{
+*{
     padding: 1px;
     margin: 1px;
     box-sizing: border-box; 
@@ -30,40 +26,39 @@
         
     }
 
-    .container {
+      .container {
         max-width: 1640px;
         width: 96%;
         margin: 0 auto;
-    }  
+    }    
 
     nav, 
     nav li {
         display: inline-block;
-    } 
-
-    nav , 
-    .logo-3 ,
-    .search-icon {
-        vertical-align: top;
+        
     }  
 
+     nav , 
+    .logo-3 ,
+    .logo-4 {
+    
+        vertical-align: top; 
+        
+    }  
+
+   
+   
     nav li {
         min-width: 100px;
     
     } 
 
     .logo-3 img , 
-    .search-icon img {
+    .logo-4 img {
         width: 44px;
         height: 44px;
     } 
 
-    .logo-3, 
-    .search-icon {
-        display: inline-block;
-    }
-
-    
     
     
     
@@ -72,10 +67,6 @@
         height: 44px;
     }
     
-    .search-icon{
-        width: 40px;
-        height: 40px;
-    }  
    
     img{
         width: 100%;
@@ -159,6 +150,12 @@
         margin-top: 68px;
     }  
 
+    footer {
+
+        width: 1640px;
+        height: 207px;
+    }
+
 
     .img-section-2 {
         margin-top: 30px;
@@ -169,15 +166,21 @@
          height: 280px;
      }  
 
-
+      
      .footer-font {
         display: inline-block;
-     }
+    
+    } 
 
-  
-     div li {
-        display: inline-block; 
-     }  
+   
+     
+    .footer-font , 
+    .navigacia  {
+        display: inline-flex;
+        vertical-align: middle;
+        margin: 0 400px ;
+    }
+
 
      p , h2 {
         font-family: "BPG Glaho", sans-serif;
@@ -191,6 +194,16 @@
      h1 {
         margin-bottom: 70px;
      }
+    
+     .more-margin {
+        display: block;
+        text-align: right;
+        margin-top: 73px;
+        margin: 73px 13px 35px 0;
+     }
+    
+
+
     
     
 
