@@ -1,0 +1,25 @@
+.box {
+    animation: slide-in 3500ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+}
+
+
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0.25;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+
+
+
+ 
+
+

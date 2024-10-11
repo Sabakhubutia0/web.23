@@ -1,215 +1,56 @@
-*{
-    padding: 1px;
-    margin: 1px;
-    box-sizing: border-box; 
- }  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-image: url(..//img/background.jpeg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    max-width: 1640px;
+    margin-bottom: 20px;
+
+}
+
+
+nav {
+    display:flex;
+    gap: 30px;
  
- .header {
-    margin-bottom: 107px; 
-    text-align: left;
-    
- } 
+}
 
- nav li {
-    display: inline-block; 
-    margin: 0 20px;
- }
-    nav , a  {
-        text-decoration: none;  
-        color: #707070;
-    } 
+a { 
     
-    
-    ul {
-        list-style-type: none; 
-       
-        
-    }
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
 
-      .container {
-        max-width: 1640px;
-        width: 96%;
-        margin: 0 auto;
-    }    
+}
 
-    nav, 
-    nav li {
-        display: inline-block;
-        
-    }  
-
-     nav , 
-    .logo-3 ,
-    .logo-4 {
-    
-        vertical-align: top; 
-        
-    }  
-
-   
-   
-    nav li {
-        min-width: 100px;
-    
-    } 
-
-    .logo-3 img , 
-    .logo-4 img {
-        width: 44px;
-        height: 44px;
-    } 
-
-    
-    
-    
-    .logo , #logo_2 , .footer{
-        width: 44px; 
-        height: 44px;
-    }
-    
-   
-    img{
-        width: 100%;
-    }  
-
-    .main-1 {
-        margin-bottom: 138px;
-    }
-
-    .paragraph {
-        margin-bottom: 56px;
-    }
-    
-    .middle {
-        margin-bottom: 53px;
-    }
-   
-    
-    footer {
-     
-        border-radius: 7px;
-        background-color: #2E2E2E;  
-    }
-    
-    div{
-        text-align: left;
-    } 
-    
-
-    
-    #logo_2 {
-        text-align: left;
-        margin-left: 15px;
-    } 
-    
-    
-    .misamarti-1{
-        color: #F2F2F2;
-    } 
-    
-    .misamarti {
-        color: #FFFFFF;
-        margin-right: 15px; 
-    }
-     
-    h1 , p , h3 , a , h2 {
-        color: #707070; 
-        
-    
-    } 
-
-      section .sections-1  {
-        
-        display: inline-block;
-        margin: 0 95px;
-    
-     } 
-
-    .sections-1 {  
-       text-align: left;
-       width: 480px;
-       height: auto;
-       padding: 10px;
-       border: 1 solid;
-       box-sizing: content-box; 
-       box-shadow: 2px 2px 2px 2px #888888 ; 
-       margin-top: 268px;
-     
-    }  
-    
-    aside{
-        text-align: center;
-        text-decoration: underline;
-        font-size: large;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    
-
-    .footer-size {
-        margin-top: 68px;
-    }  
-
-    footer {
-
-        width: 100% ;
-        height: 207px;
-    }
+a:hover,
+a:focus {
+    background-color: #fff;
+    color: #333;
+}
 
 
-    .img-section-2 {
-        margin-top: 30px;
-     }
- 
-     .img-section {
-         width: 480px;
-         height: 280px;
-     }  
-
-      
-     .footer-font {
-        display: inline-block; 
-       
-    
-    } 
-     
-    .footer-font , 
-    .navigacia  {
-        display: inline-flex;
-        vertical-align: middle;
-        margin: 0 300px ;
-    } 
-
-    .footer {
-        display: block;
-        display: inline-block;
-    }
-
-
-     p , h2 {
-        font-family: "BPG Glaho", sans-serif;
-     } 
-
-     h2 {
-        
-        margin: 20px 0 33px;
-     } 
-
-     h1 {
-        margin-bottom: 70px;
-     }
-    
-     .more-margin {
-        display: block;
-        text-align: right;
-        margin-top: 73px;
-        margin: 73px 13px 35px 0;
-     }
-    
-
-
-    
-    
-
-
-    
+.box {
+    width: 100px;
+    background: slateblue;
+    padding: 8px;
+    place-content: center;
+    color: white;
+    text-align: center;
+} 
